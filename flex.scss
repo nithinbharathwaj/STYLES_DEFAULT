@@ -1,0 +1,59 @@
+@mixin alignItems($value) {
+    align-items: $value
+}
+
+@mixin justifyContent($value) {
+    justify-content: $value
+}
+
+@mixin flexWrap($wrap) {
+    flex-wrap: $wrap
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column
+}
+
+.flex-align-center {
+    @include alignItems(center)
+}
+
+.flex-align-space-between {
+    @include alignItems(space-between)
+}
+
+.flex-align-space-around {
+    @include alignItems(space-around)
+}
+
+.flex-justify-center {
+    @include justifyContent(center)
+}
+
+.flex-justify-space-between {
+    @include justifyContent(space-between)
+}
+
+.flex-justify-space-around {
+    @include justifyContent(space-around)
+}
+
+.flex-wrap {
+    @include flexWrap(wrap)
+}
+
+.flex-nowrap {
+    @include flexWrap(nowrap)
+}
+
+.flex-default {
+    @extend .flex;
+    @include justifyContent(center);
+    @include alignItems(center);
+    @include flexWrap(nowrap);
+}

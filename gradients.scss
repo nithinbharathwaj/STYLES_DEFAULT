@@ -1,0 +1,77 @@
+@mixin gradient($color1, $color2, $textColor) {
+    background: $color1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $color1, $color2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $color1, $color2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: $textColor !important
+}
+
+.gradient-cyan {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important
+}
+
+.gradient-red-blue {
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important
+}
+
+.gradient-royal-blue {
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important
+}
+
+.gradient-dark-blue {
+    background: #1e3c72;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important
+}
+
+.gradient-hershleys {
+    background: #1e130c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9a8478, #1e130c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9a8478, #1e130c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important
+}
+
+.gradient-orange-yellow {
+    background: -webkit-linear-gradient( 135deg, #FDD819 10%, #E80505 100%);
+    background: linear-gradient( 135deg, #FDD819 10%, #E80505 100%);
+    color: black !important
+}
+
+.gradient-material-purple {
+    @include gradient(#4527A0, #7B1FA2, white)
+}
+
+.gradient-material-blue {
+    @include gradient(#303F9F, #1976D2, white)
+}
+
+.gradient-material-orange {
+    @include gradient(#BF360C, #F57C00, white)
+}

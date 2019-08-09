@@ -1,0 +1,119 @@
+@mixin margin($size) {
+    margin: $size;
+}
+
+@mixin marginRight($size) {
+    margin-right: $size
+}
+
+@mixin marginLeft($size) {
+    margin-left: $size
+}
+
+@mixin marginTop($size) {
+    margin-top: $size
+}
+
+@mixin marginBottom($size) {
+    margin-bottom: $size
+}
+
+.margin-3 {
+    @include margin(3px)
+}
+
+.margin-5 {
+    @include margin(5px)
+}
+
+.margin-10 {
+    @include margin(10px)
+}
+
+.margin-20 {
+    @include margin(20px)
+}
+
+.margin-right-3 {
+    @include marginRight(3px)
+}
+
+.margin-right-5 {
+    @include marginRight(5px)
+}
+
+.margin-right-10 {
+    @include marginRight(10px)
+}
+
+.margin-right-20 {
+    @include marginRight(20px)
+}
+
+.margin-right-auto {
+    @include marginRight(auto)
+}
+
+.margin-left-3 {
+    @include marginLeft(3px)
+}
+
+.margin-left-5 {
+    @include marginLeft(5px)
+}
+
+.margin-left-10 {
+    @include marginLeft(10px)
+}
+
+.margin-left-20 {
+    @include marginLeft(20px)
+}
+
+.margin-left-auto {
+    @include marginLeft(auto)
+}
+
+.margin-bottom-3 {
+    @include marginBottom(3px)
+}
+
+.margin-bottom-5 {
+    @include marginBottom(5px)
+}
+
+.margin-bottom-10 {
+    @include marginBottom(10px)
+}
+
+.margin-bottom-20 {
+    @include marginBottom(20px)
+}
+
+.margin-bottom-auto {
+    @include marginBottom(auto)
+}
+
+.margin-top-3 {
+    @include marginTop(3px)
+}
+
+.margin-top-5 {
+    @include marginTop(5px)
+}
+
+.margin-top-10 {
+    @include marginTop(10px)
+}
+
+.margin-top-20 {
+    @include marginTop(20px)
+}
+
+.margin-top-auto {
+    @include marginTop(auto)
+}
+
+.margin-default {
+    @include margin(8px)
+}

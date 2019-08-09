@@ -1,0 +1,169 @@
+$blue: #42A5F5;
+$darkBlue: #0D47A1;
+$red: #B71C1C;
+$purple: #4A148C;
+$pink: #E91E63;
+$lightcyan: #00BCD4;
+$cyan: #006064;
+$teal :#004D40;
+$orange: #E65100;
+$brown: #795548;
+$black: #000;
+$white: #fff;
+
+@mixin backgroundColor($bgColor, $color) {
+    background-color: $bgColor !important;
+    color: $color !important;
+}
+
+@mixin color($color) {
+    color: $color
+}
+
+@mixin borderColor($color) {
+    border-color: $color
+}
+
+.bgcolor-blue {
+    @include backgroundColor($blue, $white)
+}
+
+.bgcolor-dark-blue {
+    @include backgroundColor($darkBlue, $white)
+}
+
+.bgcolor-red {
+    @include backgroundColor($red, $white)
+}
+
+.bgcolor-purple {
+    @include backgroundColor($purple, $white)
+}
+
+.bgcolor-pink {
+    @include backgroundColor($pink, $white)
+}
+
+.bgcolor-lightcyan {
+    @include backgroundColor($lightcyan, $black)
+}
+
+.bgcolor-cyan {
+    @include backgroundColor($cyan, $white)
+}
+
+.bgcolor-teal {
+    @include backgroundColor($teal, $white)
+}
+
+.bgcolor-orange {
+    @include backgroundColor($orange, $black)
+}
+
+.bgcolor-brown {
+    @include backgroundColor($brown, $white)
+}
+
+.bgcolor-black {
+    @include backgroundColor($black, $white)
+}
+
+.bgcolor-white {
+    @include backgroundColor($white, $black)
+}
+
+.color-blue {
+    @include color($blue)
+}
+
+.color-dark-blue {
+    @include color($darkBlue)
+}
+
+.color-red {
+    @include color($red)
+}
+
+.color-purple {
+    @include color($purple)
+}
+
+.color-pink {
+    @include color($pink)
+}
+
+.color-lightcyan {
+    @include color($lightcyan)
+}
+
+.color-cyan {
+    @include color($cyan)
+}
+
+.color-teal {
+    @include color($teal)
+}
+
+.color-orange {
+    @include color($orange)
+}
+
+.color-brown {
+    @include color($brown)
+}
+
+.color-black {
+    @include color($black)
+}
+
+.color-white {
+    @include color($white)
+}
+
+.bordercolor-blue {
+    @include borderColor($blue)
+}
+
+.bordercolor-dark-blue {
+    @include borderColor($darkBlue)
+}
+
+.bordercolor-red {
+    @include borderColor($red)
+}
+
+.bordercolor-purple {
+    @include borderColor($purple)
+}
+
+.bordercolor-pink {
+    @include borderColor($pink)
+}
+
+.bordercolor-lightcyan {
+    @include borderColor($lightcyan)
+}
+
+.bordercolor-cyan {
+    @include borderColor($cyan)
+}
+
+.bordercolor-teal {
+    @include borderColor($teal)
+}
+
+.bordercolor-orange {
+    @include borderColor($orange)
+}
+
+.bordercolor-brown {
+    @include borderColor($brown)
+}
+
+.bordercolor-black {
+    @include borderColor($black)
+}
+
+.bordercolor-white {
+    @include borderColor($white)
+}

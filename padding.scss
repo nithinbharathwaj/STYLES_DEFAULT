@@ -1,0 +1,103 @@
+@mixin padding($size) {
+    padding: $size;
+}
+
+@mixin paddingRight($size) {
+    padding-right: $size
+}
+
+@mixin paddingLeft($size) {
+    padding-left: $size
+}
+
+@mixin paddingTop($size) {
+    padding-top: $size
+}
+
+@mixin paddingBottom($size) {
+    padding-bottom: $size
+}
+
+.padding-3 {
+    @include padding(3px)
+}
+
+.padding-5 {
+    @include padding(5px)
+}
+
+.padding-10 {
+    @include padding(10px)
+}
+
+.padding-20 {
+    @include padding(20px)
+}
+
+.padding-right-3 {
+    @include paddingRight(3px)
+}
+
+.padding-right-5 {
+    @include paddingRight(5px)
+}
+
+.padding-right-10 {
+    @include paddingRight(10px)
+}
+
+.padding-right-20 {
+    @include paddingRight(20px)
+}
+
+.padding-left-3 {
+    @include paddingLeft(3px)
+}
+
+.padding-left-5 {
+    @include paddingLeft(5px)
+}
+
+.padding-left-10 {
+    @include paddingLeft(10px)
+}
+
+.padding-left-20 {
+    @include paddingLeft(20px)
+}
+
+.padding-bottom-3 {
+    @include paddingBottom(3px)
+}
+
+.padding-bottom-5 {
+    @include paddingBottom(5px)
+}
+
+.padding-bottom-10 {
+    @include paddingBottom(10px)
+}
+
+.padding-bottom-20 {
+    @include paddingBottom(20px)
+}
+
+.padding-top-3 {
+    @include paddingTop(3px)
+}
+
+.padding-top-5 {
+    @include paddingTop(5px)
+}
+
+.padding-top-10 {
+    @include paddingTop(10px)
+}
+
+.padding-top-20 {
+    @include paddingTop(20px)
+}
+
+.padding-default {
+    @include padding(8px)
+}
